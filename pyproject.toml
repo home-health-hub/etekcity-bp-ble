@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "etekcity-bp-ble"
+version = "0.1.0"
+description = "Standalone BLE client for the Etekcity Smart Blood Pressure Monitor (no Home Assistant required)"
+readme = "README.md"
+license = "GPL-3.0-only"
+requires-python = ">=3.11"
+dependencies = [
+    "bleak>=0.22.0,<2.0.0",
+    "bleak-retry-connector>=3.0.0,<4.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/bonelifer/etekcity-bp-ble"
+
+[project.scripts]
+etekcity-bp-monitor = "etekcity_bp_ble.cli:main"
+
+[project.optional-dependencies]
+dev = [
+    "flake8>=7.0.0",
+    "pytest>=8.0.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/etekcity_bp_ble"]
