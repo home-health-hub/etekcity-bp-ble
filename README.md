@@ -1,9 +1,9 @@
 # etekcity-bp-ble
 
-A standalone, Home-Assistant-free Python client for the Etekcity Smart Blood
-Pressure Monitor (BLE). It connects over Bluetooth Low Energy, decodes the
-device's measurement notifications, and hands back structured readings so
-any Python script can use the device directly.
+A standalone Python client for the Etekcity Smart Blood Pressure Monitor
+(BLE). It connects over Bluetooth Low Energy, decodes the device's
+measurement notifications, and hands back structured readings so any Python
+script can use the device directly.
 
 ## Disclaimer
 
