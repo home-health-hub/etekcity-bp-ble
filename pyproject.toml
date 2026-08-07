@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "etekcity-bp-ble"
 version = "0.1.0"
-description = "Standalone BLE client for the Etekcity Smart Blood Pressure Monitor (no Home Assistant required)"
+description = "Standalone Python BLE client for the Etekcity Smart Blood Pressure Monitor"
 readme = "README.md"
 license = "GPL-3.0-only"
 requires-python = ">=3.11"
