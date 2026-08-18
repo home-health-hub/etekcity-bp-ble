@@ -30,7 +30,7 @@ Transtek Medical Electronics Co., Ltd.
 ## Installation
 
 ```bash
-pip install git+https://github.com/bonelifer/etekcity-bp-ble.git
+pip install git+https://github.com/home-health-hub/etekcity-bp-ble.git
 ```
 
 ## Library usage
@@ -112,8 +112,8 @@ The pulse/motion packet is what completes a reading; see
 
 Contributions are welcome!
 
-- **Bug reports**: [Open an issue](https://github.com/bonelifer/etekcity-bp-ble/issues).
-- **Everything else** (questions, feature requests, ideas, general discussion): [Use Discussions](https://github.com/bonelifer/etekcity-bp-ble/discussions).
+- **Bug reports**: [Open an issue](https://github.com/home-health-hub/etekcity-bp-ble/issues).
+- **Everything else** (questions, feature requests, ideas, general discussion): [Use Discussions](https://github.com/home-health-hub/etekcity-bp-ble/discussions).
 - Pull requests are welcome for bug fixes or discussed features.
 
 ## Acknowledgments
