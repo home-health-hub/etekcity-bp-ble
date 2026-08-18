@@ -15,7 +15,7 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/bonelifer/etekcity-bp-ble"
+Homepage = "https://github.com/home-health-hub/etekcity-bp-ble"
 
 [project.scripts]
 etekcity-bp-monitor = "etekcity_bp_ble.cli:main"
