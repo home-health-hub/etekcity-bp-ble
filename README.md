@@ -1,5 +1,9 @@
 # etekcity-bp-ble
 
+![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-3776AB?logo=python&logoColor=white) ![Bluetooth LE](https://img.shields.io/badge/Bluetooth-LE-0082FC?logo=bluetooth&logoColor=white)
+
+[![License: GPL-3.0](https://img.shields.io/badge/license-GPL--3.0-blue)](https://github.com/home-health-hub/etekcity-bp-ble/blob/main/LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/home-health-hub/etekcity-bp-ble#contributing) [![Discussions](https://img.shields.io/badge/discussions-welcome-blue)](https://github.com/home-health-hub/etekcity-bp-ble/discussions)
+
 A standalone Python client for the Etekcity Smart Blood Pressure Monitor
 (BLE). It connects over Bluetooth Low Energy, decodes the device's
 measurement notifications, and hands back structured readings so any Python
